@@ -1,4 +1,4 @@
-export default function() {
+export default function Banner() {
     return (
         <div className="banner">
             <div className="text-container">
