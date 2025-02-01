@@ -5,13 +5,6 @@ import { useEffect, useState } from "react";
 export default function Navbar() {
     const [scrollPosition, setScrollPosition] = useState(0);
 
-    const handleScroll = () => {
-        const position = window.scrollY;
-        setScrollPosition(position);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
     useEffect(() => {
         const handleScroll = () => {
             const position = window.scrollY;
